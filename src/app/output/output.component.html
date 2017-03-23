@@ -1,0 +1,6 @@
+<img [src]="'assets/images/' + number + '.jpg'" width="150" *ngIf="number != null"/>
+
+<h1>List Diced</h1>
+<ul class="list-group">
+    <li *ngFor="let num of numbers" class="list-group-item">{{num}}</li>
+</ul>
